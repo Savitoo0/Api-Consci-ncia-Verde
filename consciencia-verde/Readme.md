@@ -62,3 +62,5 @@ Método: GET
 Rota: /listas/:id
 Descrição: Retorna todos os conteúdos de uma lista específica.
 Resposta: Um array de conteúdos ou um erro 404 se a lista não for encontrada.
+
+Obrigabo pela paciência <3
