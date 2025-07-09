@@ -1,0 +1,39 @@
+.content-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 2rem;
+}
+
+.content-card {
+  background-color: #e8f5e9; /* Verde claro */
+  border: 1px solid #a5d6a7; /* Verde médio */
+  border-radius: 8px;
+  padding: 1rem;
+  margin: 1rem;
+  width: 300px;
+  transition: transform 0.3s;
+}
+
+.content-card:hover {
+  transform: scale(1.05);
+}
+
+.content-card h2 {
+  font-size: 1.5rem;
+  color: #388E3C; /* Verde escuro */
+}
+
+.content-card p {
+  font-size: 1rem;
+}
+
+.content-card button {
+  margin-top: 10px;
+  background-color: #4CAF50; /* Verde */
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
