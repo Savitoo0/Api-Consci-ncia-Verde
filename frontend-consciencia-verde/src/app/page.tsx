@@ -10,9 +10,6 @@ export default function Home() {
       <Navbar />
       <main>
         <Hero />
-        <Conteudos />
-        <Comentarios />
-        <Listas />
         <Sobre />
       </main>
       <Footer />

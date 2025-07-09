@@ -1,14 +1,14 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    "./app/**/*.{js,ts,jsx,tsx}"
+    "./src/**/*.{js,ts,jsx,tsx}", // pega tudo de app e pages
   ],
   darkMode: 'class',
   theme: {
     extend: {
       colors: {
-        greenEco: '#2e7d32'
-      }
+        greenEco: '#2e7d32',
+      },
     },
   },
   plugins: [],
